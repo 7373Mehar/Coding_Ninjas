@@ -1,0 +1,11 @@
+def Power(x,n):
+    if x==0 and  n ==0:
+        return 1 
+    if x == 0 :
+        return 0
+    
+    
+    return x**n
+
+x,n= [int(x) for x in input().split()] 
+print(Power(x,n))
